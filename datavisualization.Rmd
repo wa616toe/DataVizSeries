@@ -1,0 +1,41 @@
+---
+title: "data_visualization"
+author: "wangui"
+date: '2022-03-14'
+output: html_document
+---
+
+\<!alpa\>
+
+```{r}
+library(tidyverse)
+
+
+```
+
+```{r}
+data(mpg)
+
+```
+
+```{r}
+```
+
+```{r}
+glimpse(mpg)
+```
+
+```{r}
+view(mpg)
+table(mpg$manufacturer)
+```
+
+```{r}
+
+ggplot(data=mpg)+geom_point(mapping=aes(y=hwy,x=displ))
+       
+```
+
+```{r}
+gg
+```
